@@ -317,6 +317,7 @@
             this.cmdDelete.TabIndex = 17;
             this.cmdDelete.Text = "Delete";
             this.cmdDelete.UseVisualStyleBackColor = true;
+            this.cmdDelete.Click += new System.EventHandler(this.cmdDelete_Click);
             // 
             // hRDataSet
             // 
