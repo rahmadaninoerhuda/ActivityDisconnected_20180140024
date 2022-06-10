@@ -297,6 +297,7 @@
             this.cmdAdd.TabIndex = 15;
             this.cmdAdd.Text = "Add";
             this.cmdAdd.UseVisualStyleBackColor = true;
+            this.cmdAdd.Click += new System.EventHandler(this.cmdAdd_Click);
             // 
             // cmdSave
             // 
@@ -306,6 +307,7 @@
             this.cmdSave.TabIndex = 16;
             this.cmdSave.Text = "Save";
             this.cmdSave.UseVisualStyleBackColor = true;
+            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
             // 
             // cmdDelete
             // 
